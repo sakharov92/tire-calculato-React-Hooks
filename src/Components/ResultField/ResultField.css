@@ -1,0 +1,17 @@
+.resultField {
+    margin-top: 50px;
+}
+
+.clearance, .speedOmetr {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+}
+
+.clearance img {
+    height: 100px;
+}
+
+.speedOmetr img {
+    height: 180px;
+}

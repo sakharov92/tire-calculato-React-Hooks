@@ -1,0 +1,54 @@
+.visualizationTire {
+    display: flex;
+    max-width: 70%;
+}
+
+.oldTireView, .newTireView {
+    width: 50%;
+    position: relative;
+    font-size: 24px;
+}
+
+.oldTireView img, .newTireView img {
+    width: 100%;
+}
+
+.oldTireView .width {
+    position: absolute;
+    top: -3%;
+    left: 37%;
+}
+
+.newTireView .width {
+    position: absolute;
+    top: -3%;
+    left: 46%;
+}
+
+.oldTireView .height {
+    position: absolute;
+    top: 9%;
+    right: -2%;
+    transform: rotate(270deg);
+}
+
+.newTireView .height {
+    position: absolute;
+    top: 9%;
+    left: -2%;
+    transform: rotate(270deg);
+}
+
+.oldTireView .radius {
+    position: absolute;
+    top: 45%;
+    right: -1%;
+    transform: rotate(270deg);
+}
+
+.newTireView .radius {
+    position: absolute;
+    top: 45%;
+    left: -1%;
+    transform: rotate(270deg);
+}
